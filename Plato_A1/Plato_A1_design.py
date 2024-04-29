@@ -10,6 +10,14 @@ Face_triangle_rows = 6
 Face_led_radius = 2.54
 Face_led_count = 21
 
+
+def ensure_directory_for_path(path):
+    """ Ensure the directory for a given file path exists. """
+    import os
+    directory = os.path.dirname(path)
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory)
+
 class Circle:
     def __init__(self, centre, radius, circle_type):
         self.centre = Point(centre)
@@ -64,7 +72,7 @@ class Plan:
         return True
         return self.clip_geometry.contains(circle_path)
 
-    def display(self, block=True):
+    def display(self, output = None, block=True):
         """Display the base geometry and all circles using matplotlib."""
 
         plt.clf()
@@ -74,7 +82,7 @@ class Plan:
         x, y = self.board_geometry.exterior.xy
         ax.fill(x, y, alpha=0.5, fc='lightblue', ec='blue')
 
-        plt.title('Base Geometry with Circles')
+        plt.title('Plato_A1 Design')
         
         # Display circles
         for circle in self.circles:
@@ -94,7 +102,11 @@ class Plan:
         ax.set_ylim(ymin - 10, ymax + 10)
         ax.set_aspect('equal')
 
-        plt.show( block=True  )
+        if output:
+            ensure_directory_for_path(output)
+            fig.savefig(output)
+
+        plt.show( block=block  )
 
     def connect_leds(self):
         """Connect LEDs to the base geometry."""
@@ -200,6 +212,6 @@ for index in range(Face_led_count):
     plan.circles.append(led)
 
 plan.orient_leds_to_origin()
-plan.export_parts_to_csv("Plato_A1_LEDs.csv")
-plan.export_clip_geometry_to_dxf("Plato_A1_Board.dxf")
-plan.display( block = True )
+plan.export_parts_to_csv("output/Plato_A1_LEDs.csv")
+plan.export_clip_geometry_to_dxf("output/Plato_A1_Board.dxf")
+plan.display( output="output/Plato_A1_design.svg", block = False )

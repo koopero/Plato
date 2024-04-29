@@ -3,3 +3,6 @@
 *backups/
 fp-info-cache
 *freerouting.dsn
+~_*
+\#auto_saved*
+_autosave*

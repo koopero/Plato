@@ -483,8 +483,8 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "/Users/koop/PlatoMeta/Plato_A1/240419_board/",
-      "vrml": ""
+      "svg": "output/",
+      "vrml": "output/Plato_A1.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -576,7 +576,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../../../PlatoMeta/240419_A1_board/",
+    "plot_directory": "output/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

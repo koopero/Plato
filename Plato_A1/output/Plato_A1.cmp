@@ -1,0 +1,187 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-04-29T00:17:01-0700
+
+BeginCmp
+TimeStamp = 02765ae6-4fd1-452c-8fc3-445d5dcc322a
+Path = /866733c8-762d-498f-877b-68527c4e2961
+Reference = J1;
+ValeurCmp = Conn_01x03_Socket;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 1183e238-b384-4be7-9c6a-3839639dd99b
+Path = /4f3443be-831b-4d57-8592-4b85ab52859c
+Reference = D16;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 345a9018-1deb-4ba8-b1f0-7e55099e6cb4
+Path = /1ea20d24-7428-4e0a-890f-198cb139636d
+Reference = J2;
+ValeurCmp = Conn_01x03_Pin;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 63750504-2bdc-46aa-9994-34642a4ccfd7
+Path = /d580b22a-416d-4728-aca0-a70374be04ff
+Reference = D10;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 691a012c-371a-462c-83cb-5ad8aece5709
+Path = /a0fbe0bd-3839-4ed9-bd3a-fbe883e52fd1
+Reference = D8;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 699d1980-5981-4322-8b49-8703a8c07a3f
+Path = /6aee5fce-7ae9-4eea-a484-2fcee8fd37ec
+Reference = D13;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6c812328-7dec-4101-8d58-5a513606994c
+Path = /f220d693-28c4-42b2-9e12-bffa2aa5d5e2
+Reference = D11;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 747c6b36-a3f2-4539-bcb8-a65c78e4d28e
+Path = /78c4ffed-cadc-4589-a284-52dceafd5893
+Reference = D19;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 774060d5-909b-4093-a3b2-36a8746dd411
+Path = /546675c3-4045-435a-8327-12d7f302686c
+Reference = D3;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 7e62ebef-9769-4c5a-a055-b1b76211643c
+Path = /2c26e37e-d5bb-42f2-8476-96f19b95c249
+Reference = D1;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 81135ef7-983c-45cf-b5cd-e9e4292bb19a
+Path = /9fc7a326-fe46-49c8-95ba-2b83b816c470
+Reference = D7;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 88fea525-99d0-4487-9d73-5631e53de7f6
+Path = /9e5a4fb9-4116-4c5f-afd1-6ba692f8fde0
+Reference = D17;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 90e888a0-95a3-46b2-8d67-687b14b31df5
+Path = /4d669e50-878e-4816-bc5a-0ac8dd8bcb4d
+Reference = D15;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 914d53d3-3a9e-466b-ba53-9ef76a0aae6d
+Path = /a52e1360-269f-4991-b7d7-f20d549202cc
+Reference = D18;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 924084da-820c-4d61-b279-c5c4595302d6
+Path = /b8e2c623-9ba8-4347-80cb-f409f9ca0a37
+Reference = D2;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 92f4edd0-63c0-496f-9885-4cba51b4c521
+Path = /a84fdceb-118e-4178-8c1f-e76ea36cc9bc
+Reference = D14;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = ade70d63-6e6a-4fc4-9885-dc22af892365
+Path = /a31410df-2e09-4133-a594-0a538b4b59e7
+Reference = D20;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = d0ca2206-2e74-4d07-95ba-2bc10f672dc3
+Path = /a5a80576-b2d8-4e1f-990e-f7a838351d53
+Reference = D6;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = dbd62419-c6c7-43a3-a3d6-12a7ef4a9e0c
+Path = /ff4be050-8445-4bc4-ab8e-465ae564b57b
+Reference = D12;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = e9a54e3a-a75f-46fd-9e82-07373cd123c2
+Path = /81a640f7-1228-462a-a6bc-f25e607e8232
+Reference = D5;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = f23e6ffb-cf18-47f1-a8a4-56b9a8f94dd9
+Path = /16019783-fdea-4d71-895a-874c9a2ab019
+Reference = D4;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = f277903c-ab99-4b7e-8ab3-3327f962fdbf
+Path = /a90b95a5-d670-4d31-9ddb-9442debc0c99
+Reference = D21;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = fe010e91-a4ff-4ac1-86d0-b5bf0f140632
+Path = /be5fca51-3642-4330-b186-91cd345a1cc6
+Reference = D9;
+ValeurCmp = WS2812B-2020;
+IdModule  = LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm;
+EndCmp
+
+EndListe

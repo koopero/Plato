@@ -1,6 +1,6 @@
 # Plato_A1
 
-A regular triangle, made of light and plastic, with a dimension of about an inch. This subassembly is meant as an experiment in:
+`Plato_A1` is a regular triangle, made of light and plastic, with a dimension of about an inch. This subassembly is meant as an experiment in:
 
 - **Parametric Geometry** : 
 - **Electronic Basics** : 

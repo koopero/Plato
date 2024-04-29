@@ -1843,7 +1843,7 @@
 			(uuid "83f6bfce-79be-4a32-b3cc-e34f6c0f0085")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR02")
 					(unit 1)
@@ -1919,7 +1919,7 @@
 			(uuid "745478dd-4fcf-4eb9-9e3d-f19a7af9bb8e")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D4")
 					(unit 1)
@@ -1985,7 +1985,7 @@
 			(uuid "65ee61dc-5f4d-48a3-aefe-a93bec7edb0c")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR06")
 					(unit 1)
@@ -2056,7 +2056,7 @@
 			(uuid "ddac1a61-3e11-4c17-a097-d118b2abecfe")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "J2")
 					(unit 1)
@@ -2121,7 +2121,7 @@
 			(uuid "0cb9e46e-8bf6-48ac-bb4c-b9291583f038")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR011")
 					(unit 1)
@@ -2197,7 +2197,7 @@
 			(uuid "d7439775-b515-4362-93fb-5357a24ea4bc")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D1")
 					(unit 1)
@@ -2262,7 +2262,7 @@
 			(uuid "571ddfbb-1e04-4239-a270-03f67520bcc4")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR01")
 					(unit 1)
@@ -2338,7 +2338,7 @@
 			(uuid "43e40f86-6afe-4e10-bf18-9e5f3174e6e7")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D15")
 					(unit 1)
@@ -2414,7 +2414,7 @@
 			(uuid "eb52c845-e542-45de-b414-c0c11ca6c1a8")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D16")
 					(unit 1)
@@ -2490,7 +2490,7 @@
 			(uuid "9f01355d-5233-4e29-8c52-c6baeed66369")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D3")
 					(unit 1)
@@ -2555,7 +2555,7 @@
 			(uuid "3d37cb1a-31ba-42fd-aafa-132681912f7b")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR010")
 					(unit 1)
@@ -2632,7 +2632,7 @@
 			(uuid "00d77229-c4df-4192-adb6-3a847e844219")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D13")
 					(unit 1)
@@ -2708,7 +2708,7 @@
 			(uuid "628bbf90-bc82-45ed-a513-c6e4df699a3d")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D19")
 					(unit 1)
@@ -2784,7 +2784,7 @@
 			(uuid "e36a3fe0-9b21-4e31-b7da-79dc87676664")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D5")
 					(unit 1)
@@ -2850,7 +2850,7 @@
 			(uuid "e1a055f7-1667-4252-a340-e35cb9c6ee54")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR03")
 					(unit 1)
@@ -2920,7 +2920,7 @@
 			(uuid "15f0d78f-cfef-4e55-8fdb-0edf53e4ad49")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "J1")
 					(unit 1)
@@ -2986,7 +2986,7 @@
 			(uuid "9b09ff80-4cf5-4582-a235-481eeed39d9a")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR05")
 					(unit 1)
@@ -3062,7 +3062,7 @@
 			(uuid "52efab07-940e-430f-8346-5bc273477d46")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D17")
 					(unit 1)
@@ -3138,7 +3138,7 @@
 			(uuid "8741644b-5c23-4df4-b503-765b4152b7a0")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D7")
 					(unit 1)
@@ -3215,7 +3215,7 @@
 			(uuid "45f234bc-1323-4b92-a2cf-85d38017d565")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D8")
 					(unit 1)
@@ -3291,7 +3291,7 @@
 			(uuid "5758428b-ab0c-460f-bc63-92551be5c580")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D20")
 					(unit 1)
@@ -3357,7 +3357,7 @@
 			(uuid "ac81cb91-5abe-482a-b659-e12a2cf38872")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR04")
 					(unit 1)
@@ -3433,7 +3433,7 @@
 			(uuid "dd83d2e0-0f29-406e-bd32-59602b98416e")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D18")
 					(unit 1)
@@ -3509,7 +3509,7 @@
 			(uuid "764aa79b-061b-4f51-a0ee-d30acec35ae8")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D6")
 					(unit 1)
@@ -3586,7 +3586,7 @@
 			(uuid "429eafd9-9edc-48ea-ac80-9aa9ea4bd8db")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D14")
 					(unit 1)
@@ -3662,7 +3662,7 @@
 			(uuid "ab94bb79-14da-44d6-970d-95bcda5986a4")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D21")
 					(unit 1)
@@ -3738,7 +3738,7 @@
 			(uuid "017dc9a4-2a24-4036-9484-ebb674be5d2a")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D2")
 					(unit 1)
@@ -3815,7 +3815,7 @@
 			(uuid "a3ca8e7a-b9f1-4cc5-91ed-ef2301703584")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D9")
 					(unit 1)
@@ -3892,7 +3892,7 @@
 			(uuid "2cf444a0-2df3-48a3-9485-32724f269246")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D10")
 					(unit 1)
@@ -3959,7 +3959,7 @@
 			(uuid "0533b998-fc99-42a1-a200-67c2b65b5a43")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR09")
 					(unit 1)
@@ -4036,7 +4036,7 @@
 			(uuid "7db678d1-6a4e-423b-9af9-c1c0d63b940b")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D11")
 					(unit 1)
@@ -4103,7 +4103,7 @@
 			(uuid "a4b34c65-8995-4e84-ba5f-6caeea4adc56")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "#PWR012")
 					(unit 1)
@@ -4180,7 +4180,7 @@
 			(uuid "dc62e0de-47e9-4d9d-9e8e-2aa224ccb81e")
 		)
 		(instances
-			(project "Triangle"
+			(project "Plato_A1"
 				(path "/0bfbc226-1f34-4e9b-a814-384ef0b6502f"
 					(reference "D12")
 					(unit 1)
