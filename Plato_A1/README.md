@@ -1,17 +1,13 @@
 # Plato_A1
 
+*Please note that this design has failed testing and should not be used.*
+
 `Plato_A1` is a regular triangle, made of light and plastic, with a dimension of about an inch. This subassembly is meant as an experiment in:
 
-- **Parametric Geometry** : 
-- **Electronic Basics** : 
+- **Parametric Geometry** : The layout and dimensions of the PCB are defined in python.
+- **Electronic Basics** : Learn Kicad by doing.
 - **LED placement** : The triangular shape of the piece makes cartesian component alignment unfeasible. Therfore, the LEDs are align in a triagnular grid. Additionally, the LEDs are oriented towards the centre of the piece, for aesthetics and to diffuse potential chromatric anisotropy.
 
-
-
-
-# Revision 1
-
-*Please note that this design has failed testing and should not be used.*
 
 ![Front of board](docs/Board_front.jpeg)
 ![Back of board](docs/Board_back.jpeg)
@@ -56,4 +52,4 @@ Upon testing, the boards failed to maintain a coherent LED signal. About half th
 - Assemble sample boards with Plato_C1 casing to demonstrate an illuminated, if uncontrolled, tetrahedron.
 - Assemble content pertaining to creation of object.
 - Research reference designs for WS2812B 2020 circuit boards.
-- Redesign `Plato_A1` with similar dimensions and specifications, incorporating better electronic practices.
+- Design `Plato_A2` with similar dimensions and specifications, incorporating better electronic practices.
