@@ -3,12 +3,11 @@ from shapely.geometry import Point, Polygon
 import pandas as pd
 from math import cos, sin, pi, atan2, sqrt
 import ezdxf
-from time import sleep
 
-Face_radius = 25
-Face_roundness = 1
+Face_radius = 20
+Face_roundness = 0.5 
 Face_triangle_rows = 6
-Face_led_radius = 3.6
+Face_led_radius = 2.54
 Face_led_count = 21
 
 
@@ -191,53 +190,28 @@ class Plan:
 plan = Plan()
 plan.base_triangle(radius=Face_radius, roundness=Face_roundness)
 
+for index in range(Face_led_count):
+    rowsize = 1
+    rowindex = index
+    for row in range(Face_triangle_rows):
+        if rowindex < rowsize:
+            if row % 2 == 0:
+                rowindex = rowsize - rowindex - 1
+            y = (rowindex - rowsize / 2 + 0.5) * 2 * Face_led_radius
+            x = ( row - Face_triangle_rows / 2 - 0.3 ) * sqrt(3) * -Face_led_radius
+            break
+        
+        rowindex -= rowsize
+        rowsize += 1
+        
 
+    led = Circle((x, y), Face_led_radius, "led")
+    led.name = f"D{index+1}"
+    led.type = "led"
+    plan.leds.append(led)
+    plan.circles.append(led)
 
-def place_in_triangle_pattern( triangle_rows, spacing, radius, offset, names, type ):
-    for index, name in enumerate(names):
-        rowsize = 1
-        rowindex = index
-        for row in range(triangle_rows):
-            if rowindex < rowsize:
-                if row % 2 == 0:
-                    rowindex = rowsize - rowindex - 1
-                y = (rowindex - rowsize / 2 + 0.5) * 2 * spacing
-                x = (((triangle_rows) / 2 - row + 0.5 ) * sqrt(3)) * spacing + offset
-                break
-            
-            rowindex -= rowsize
-            rowsize += 1
-            
-
-        led = Circle((x, y), radius, "led")
-        led.name = name
-        led.type = type
-        plan.leds.append(led)
-        plan.circles.append(led)
-
-led_names = [f"D{i}" for i in range(1, Face_led_count + 1)]
-place_in_triangle_pattern(Face_triangle_rows, Face_led_radius, Face_led_radius, -1, led_names, "led")
-
-hole_names = [
-    "J1",
-    "J2",
-    "J3",
-    "H1",
-    "H2",
-    "H3",
-    "J4",
-    "H4",
-    "H5",
-    "J5",
-    "J8",
-    "J7",
-    "H6",
-    "J6",
-    "H7",
-]
-
-place_in_triangle_pattern(Face_triangle_rows, Face_led_radius, 1.6, -Face_led_radius-1.5, hole_names, "hole")
 plan.orient_leds_to_origin()
 plan.export_parts_to_csv("output/Plato_A1_LEDs.csv")
 plan.export_clip_geometry_to_dxf("output/Plato_A1_Board.dxf")
-plan.display( output="output/Plato_A1_design.svg", block = True )
+plan.display( output="output/Plato_A1_design.svg", block = False )
