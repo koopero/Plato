@@ -253,12 +253,6 @@ class Plan:
           self.caps.append(cap)
 
 
-
-    def board_to_stl( self, in_file, out_file ):
-        """Convert the board geometry to an STL file."""
-        import subprocess
-        subprocess.run(["openscad", "-o", out_file, in_file])
-
 # Example usage:
 plan = Plan()
 plan.base_triangle(radius=Face_radius, roundness=Face_roundness)
@@ -312,5 +306,4 @@ plan.add_capacitors()
 plan.export_parts_to_csv("output/Plato_A2_LEDs.csv")
 plan.export_clip_geometry_to_dxf("output/Plato_A2_Board.dxf")
 plan.output_board_scad("output/Plato_A2_Board.scad","output/Plato_A2.scad")
-# plan.board_to_stl("output/Plato_A2_Board.scad", "output/Plato_A2_Board.stl")
 plan.display( output="output/Plato_A2_design.svg", block = True )
